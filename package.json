@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cyrilbureau/discord-claim-bot/issues"
   },
-  "homepage": "https://github.com/cyrilbureau/discord-claim-bot#readme"
+  "homepage": "https://github.com/cyrilbureau/discord-claim-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.27.0"
+  }
 }
