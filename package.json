@@ -1,0 +1,20 @@
+{
+  "name": "discord-claim-bot",
+  "version": "0.1.0",
+  "description": "A lightweight Discord bot that periodically rewards the first user to claim a configurable role.",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrilbureau/discord-claim-bot.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/cyrilbureau/discord-claim-bot/issues"
+  },
+  "homepage": "https://github.com/cyrilbureau/discord-claim-bot#readme"
+}
