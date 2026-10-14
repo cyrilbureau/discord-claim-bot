@@ -1,6 +1,7 @@
 import { Client, Events, GatewayIntentBits, MessageFlags } from 'discord.js';
 import { loadEnvFile } from 'node:process';
 import { execute as executeClaim } from './commands/claim.js';
+import { initializeDatabase } from './database/schema.js';
 
 loadEnvFile();
 
@@ -41,5 +42,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 		}
 	}
 });
+
+initializeDatabase();
 
 client.login(process.env.DISCORD_TOKEN);

@@ -9,6 +9,11 @@ node_modules/
 # Runtime data
 data/*.json
 
+# SQLite databases
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
 # Logs
 *.log
 npm-debug.log*
